@@ -1,68 +1,74 @@
 **Retail & Commerce System**
 
 A Java-based web application developed using JSP, Servlets, JDBC, and Oracle Database to manage retail transaction records.
+
 This project allows users to add, view, and manage retail transactions efficiently.
 
 **Project Objective**
 
 To develop an online application for entering and viewing retail transaction details including:
-Customer Name
-Product Name
-Purchase Date
-Quantity
-Price
-Remarks
+
+Customer Name,
+Product Name,
+Purchase Date,
+Quantity,
+Price,
+Remarks,
 The system validates input, prevents duplicate entries, and allows retrieval of records.
 
 **Tech Stack**
 
-Java (JDK 8)
-JSP & Servlets
-JDBC
-Oracle Database (XE)
-Apache Tomcat 9
-Eclipse IDE
-HTML
+Java (JDK 8),
+JSP & Servlets,
+JDBC,
+Oracle Database (XE),
+Apache Tomcat 9,
+Eclipse IDE,
+HTML.
 
 **Functionalities**
 
 **Add Retail Transaction**
-Validates input fields
-Prevents duplicate records (same customer & date)
-Auto-generates Record ID
-Shows success or error message
+
+Validates input fields,
+Prevents duplicate records (same customer & date),
+Auto-generates Record ID,
+Shows success or error message.
 
 **View Retail Transaction**
 
-Search by Customer Name & Purchase Date
-Displays matching record
-Shows message if not found
+Search by Customer Name & Purchase Date,
+Displays matching record,
+Shows message if not found.
 
 **View All Transactions**
 
-Displays all transaction records
-Shows message if database is empty
+Displays all transaction records,
+Shows message if database is empty.
 
 **How to Run the Project**
 
-Install Oracle XE
-Create database user and tables
+Install Oracle XE,
+Create database user and tables,
+
 Configure DB credentials in:
-DBUtil.java
-Add ojdbc8.jar to project build path
-Deploy project on Apache Tomcat
+
+DBUtil.java,
+Add ojdbc8.jar to project build path,
+Deploy project on Apache Tomcat,
+
 Run:
 http://localhost:8080/Retail_and_Commerce_System/menu.html
 
 **Test Cases Covered**
 
-Add valid transaction
-Add invalid customer name
-Add invalid quantity/price
-Duplicate record prevention
-View existing transaction
-View non-existing transaction
-View all records
+Add valid transaction,
+Add invalid customer name,
+Add invalid quantity/price,
+Duplicate record prevention,
+View existing transaction,
+View non-existing transaction,
+View all records.
 
 **OUTPUT:**
 
