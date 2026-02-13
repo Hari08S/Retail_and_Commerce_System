@@ -58,7 +58,7 @@ Add ojdbc8.jar to project build path,
 Deploy project on Apache Tomcat,
 
 Run:
-http://localhost:8080/Retail_and_Commerce_System/menu.html
+http://localhost:8081/Retail_and_Commerce_System/menu.html
 
 **Test Cases Covered**
 
