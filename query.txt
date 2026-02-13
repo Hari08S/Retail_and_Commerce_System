@@ -1,0 +1,17 @@
+create table retail_tb (
+    recordid      varchar2(12 byte) primary key,
+    customername  varchar2(40 byte) not null,
+    productname   varchar2(40 byte) not null,
+    purchase_date date not null,
+    quantity      number,
+    price         number,
+    remarks       varchar2(100 byte)
+);
+
+
+create sequence retail_seq
+start with 10
+increment by 1
+maxvalue 99
+nocache
+nocycle;
